@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.siteHeader h1 nav {
+  display: flex;
+  
+}
+
+
+.navMenu li {
+  display: inline;
+}
+
+div {
+  position: relative;
+  width: 100%;
+}
+.aoyamaImage {
+  margin-left: 75%;
+  z-index: 2;
+  position: absolute;
+  width: 25%
+  
+}
+
+.managementImage {
+  z-index: 1;
+  position: absolute;
+  width: 100%
 }

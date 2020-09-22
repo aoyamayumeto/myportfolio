@@ -1,9 +1,12 @@
 import React from 'react'
-
+import aoyama from './aoyama.jpg';
+import management from './management.jpg';
+import "./App.css";
 const Content = (props) => {
   return (
     <div>
-      <h2>内容</h2>
+      <img src={aoyama} className="aoyamaImage"/>
+      <img src={management} className="managementImage"/>
     </div>
   )
 };
